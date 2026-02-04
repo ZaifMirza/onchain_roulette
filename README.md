@@ -149,7 +149,7 @@ forge --version
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/Roulette_Game.git
+git clone https://github.com/zaifmirza/Roulette_Game.git
 cd Roulette_Game
 
 # Install dependencies
@@ -258,7 +258,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ### Made with ❤️ by Zaif
 
 <p align="center">
-  <a href="https://github.com/codezeros">
+  <a href="https://github.com/zaifmirza">
     <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" />
   </a>
 </p>
