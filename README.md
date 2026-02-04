@@ -79,27 +79,27 @@
 ```mermaid
 graph TB
     subgraph "Roulette Platform"
-        A[🎛️ Rouletee Contract] --> B[📝 Round Storage]
-        A --> C[🎲 Randomness]
-        A --> D[💰 Treasury]
+        A["🎛️ Rouletee Contract"] --> B["📝 Round Storage"]
+        A --> C["🎲 Randomness"]
+        A --> D["💰 Treasury"]
     end
     
     subgraph "User Actions"
-        E[� Player] -->|Participate (0.01 ETH)| A
-        E -->|Pick Number (1-33)| A
+        E["👤 Player"] -->|"Participate (0.01 ETH)"| A
+        E -->|"Pick Number (1-33)"| A
     end
 
     subgraph "Admin Actions"
-        F[🔑 Owner] -->|Spin Wheel| A
-        F -->|Reset Round| A
-        F -->|Withdraw Fees| D
+        F["🔑 Owner"] -->|"Spin Wheel"| A
+        F -->|"Reset Round"| A
+        F -->|"Withdraw Fees"| D
     end
     
     subgraph "Game Flow"
-        B -->|Check Active| A
-        C -->|Generate Result| A
-        A -->|Distribute Winnings| E
-        A -->|Refund (if no winner)| E
+        B -->|"Check Active"| A
+        C -->|"Generate Result"| A
+        A -->|"Distribute Winnings"| E
+        A -->|"Refund (if no winner)"| E
     end
     
     style A fill:#e1f5ff,stroke:#1976d2,stroke-width:3px
